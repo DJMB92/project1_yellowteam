@@ -408,7 +408,7 @@ def examine_item(item_name):
 
 # Here finished room of Vanessa
 
-# Amelies groot and key challenge code
+# Amelies key challenge and groot code 
                 elif (item["name"] in object_relations and len(object_relations[item["name"]]) > 0 and item["name"] == "groot"):
                     result_game_root_key = game_root_key()
                     if result_game_root_key == 1:
